@@ -1,0 +1,353 @@
+.header {
+    background: linear-gradient(90.4deg,
+            rgba(2, 19, 27, 0.88) 10.07%,
+            rgba(18, 41, 51, 0.88) 37.15%,
+            rgba(7, 33, 44, 0.88) 59%,
+            rgba(1, 7, 10, 0.88) 89.1%);
+    position: sticky;
+    top: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container_header {
+    display: flex;
+}
+
+.logo-img {
+    margin: 9px 1px auto auto;
+    padding: 40 px 0;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+}
+
+.nav_item {
+    margin-right: 48px;
+}
+
+.logo-text {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.nav_link1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav_link {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #ABAAAA;
+    text-decoration: none;
+}
+
+.nav {
+    margin: auto;
+}
+
+.hero-block {
+    background: #74E1D4;
+    background: linear-gradient(112.62deg,
+            #74E1D4 24.18%,
+            #084549 48.02%,
+            #000000 80.65%);
+}
+
+.container_hero-block {
+    display: flex;
+    padding: 16px 0 21px 20px;
+}
+
+.hero-block_img {
+    margin-right: auto;
+}
+
+.hero-block_content {
+    width: 45%;
+}
+
+.hero-block_title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 75px;
+    line-height: 76px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+}
+
+.hero-block_text {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 109.69%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #E4E4E4;
+}
+
+.hero-block_btn {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #292727;
+    background: linear-gradient(91.58deg, #FADE4B 19.12%, #F9B430 77.56%);
+    box-shadow: 1px 1px 20px 2px rgba(181, 126, 0, 0.48);
+    border-radius: 25px;
+    width: 281px;
+    height: 60px;
+    border: 0;
+}
+
+.skills_full {
+    background: #F5F5F5;
+    height: 20px;
+    width: 411px;
+}
+
+.skills_done1 {
+    background: #2A9046;
+    height: 20px;
+    width: 167px;
+}
+
+.skills_done2 {
+    background: #2A9046;
+    height: 20px;
+    width: 161px;
+}
+
+.skills_done3 {
+    background: #2A9046;
+    height: 20px;
+    width: 211px;
+}
+
+
+
+.about {
+    background: linear-gradient(166.62deg,
+            #082C3C 20.43%,
+            #1D4455 50.06%,
+            #083134 80.94%);
+    padding: 39px 0 50px 0;
+
+}
+
+.about_title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 39px;
+}
+
+.skills_title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #ECECEC;
+}
+
+.skills_name {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #E4E4E4;
+}
+
+.skills_item {
+    list-style: none;
+}
+
+.skills {
+    width: 450px;
+}
+
+.about_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.skills_list {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.about_img {
+    width: 599;
+    height: 564;
+}
+
+.video {
+    background: linear-gradient(124.88deg,
+            #246058 23.83%,
+            #0D312D 67.53%,
+            #071110 87.84%);
+    ;
+    padding: 47px 0 99px 0;
+}
+
+.video_title {
+    margin: 0;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    color: #E4E4E4;
+}
+
+.video_border {
+    max-width: 843px;
+    width: 843px;
+    height: 580px;
+    margin: 100px auto 0;
+    background: #252F34;
+    border-radius: 80px;
+}
+
+.video_container {
+    max-width: 787px;
+    max-height: 525px;
+    margin: auto;
+}
+
+.video_content {
+    height: 525px;
+    width: 787px;
+    margin-top: 27px;
+    border-radius: 69px;
+}
+
+.gallery {
+    background: linear-gradient(360deg,
+            #0C1E26 -34.99%,
+            #193D4C 45.72%,
+            #0E232C 123.19%);
+    padding: 40px 0;
+}
+
+.gallery_title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    color: #E4E4E4;
+    margin: 0 auto 40px;
+}
+
+.gallery_list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.gallery_item {
+    width: 45%;
+}
+
+.gallery_img {
+    width: 620px;
+    height: 401px;
+    object-fit: cover;
+    margin-bottom: 39px;
+}
+
+.footer {
+    background: linear-gradient(185.98deg,
+            #060E18 -22.42%,
+            #1D3C49 146.3%);
+            padding: 54px 0 54px 0;
+}
+
+.footer_title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    margin: 0 0 18px;
+} 
+
+.footer_text {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 164.06%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.footer_item {
+    list-style: none;
+}
+.footer_list {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+}
